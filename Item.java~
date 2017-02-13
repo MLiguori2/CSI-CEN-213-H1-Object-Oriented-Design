@@ -1,0 +1,42 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Item {
+  
+  private string name;
+  private int weight;
+  
+  
+  public String getName()
+    {
+      
+      return name;
+    }
+  
+  public void setName(String n)
+    {
+      
+      name = n;
+    }
+  public String getWeight()
+  {
+    return wight;
+  }
+  
+  public void setWeight(int w)
+  {
+    weight = w;
+  }
+  
+  public Item(String n)
+  {
+    name = n;
+  }
+  
+  public Item()
+  {
+  }
+  
+  
+  
+}

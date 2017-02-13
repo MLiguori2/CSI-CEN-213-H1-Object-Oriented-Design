@@ -1,0 +1,33 @@
+public class Food extends Item{
+  
+  private int nutrition;
+  private int quantity;
+  
+  public int getNutrition(){
+    
+    return nutrition;
+    
+  }
+  public void setNutrition(int nut){
+    
+    nutrition = nut;
+  }
+  
+  public int getQuantity(){
+    
+    return quantity;
+  }
+  
+  public void setQuantity(int quan){
+    
+    quantity = quan;
+    
+  }
+  
+    public Weapon(int nutritoin, String name, int weight, int quantity){
+    
+    super(name + weight + examine);
+    this.nutrition = nutrition;
+    this.quantity = quantity;
+    
+  }
