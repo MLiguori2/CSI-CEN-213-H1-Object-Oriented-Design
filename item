@@ -1,0 +1,27 @@
+public class Item{   //declared class itemwith two variables
+  
+  private int weight;
+  private String name;
+  
+  public Item(String Name, int Weight){ // refers name and weight to themselves
+    
+    this.name = Name;
+    this.weight = Weight;
+  }
+  
+  public String getName(){ // returns name
+    
+    return name;
+  }
+ 
+  public int getWeight(){ //returns weight
+    
+    return weight;
+  }
+  
+   public void examine(){ //prints name weight
+     
+    System.out.println("Name:" + getName() + " Weight: " + getWeight());
+  }
+    
+}
